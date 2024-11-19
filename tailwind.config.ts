@@ -8,10 +8,19 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'pri-red': '#ff1400',
+        'dar-red': '#0000fA',
+        'pri-mold': '#ff7266',
+        'pri-green': '#238823',
+        'dar-green': '#007000',
+        'pri-yellow': '#ffbf00',
+      }
     },
   },
   plugins: [],
