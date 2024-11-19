@@ -8,7 +8,7 @@ export default function Contato() {
     <div className="bg-pri-mold">
       <Header />
       <div className="max-w-[1000px] mx-auto text-center">
-        <div className="mx-auto text-center text-md sm:text-2xl rounded-md p-4 gap-y-2 flex flex-col min-h-[90vh]">
+        <div className="mx-auto text-center text-md sm:text-2xl rounded-md p-4 gap-y-2 flex flex-col bg-[#ff000066]">
           <p className="hover:underline hover:scale-110">
             Email: sasa.lhcl@gmail.com
           </p>
@@ -37,8 +37,9 @@ export default function Contato() {
             <p className="py-1 text-md sm:text-4xl">Acesse o Google Drive:  </p>
             <DocumentArrowDownIcon className="w-10 sm:w-16 hover:scale-[1.50]" />
           </Link>
+          <div className="min-h-[70vh]"></div>
+          <Footer />
         </div>
-        <Footer />
       </div>
     </div>
   );
