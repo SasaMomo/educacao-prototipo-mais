@@ -7,7 +7,7 @@ export default function Depoimentos() {
       <Header />
       <div className="max-w-[1000px] mx-auto text-center bg-[#ff000066]">
         <h1>Vídeos de depoimentos</h1>
-        <h2></h2>
+        <div className=""></div>
         <Footer />
       </div>
     </div>
