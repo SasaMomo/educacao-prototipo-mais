@@ -61,13 +61,16 @@ export default function Header() {
             <Link href="/" className="font-bold w-full border-b-4 py-4">
               Home
             </Link>
-            <Link href="/" className="font-bold w-full border-b-4 p-4">
+            <Link href="/Materias" className="font-bold w-full border-b-4 p-4">
               Matérias
             </Link>
-            <Link href="/" className="font-bold w-full border-b-4 p-4">
+            <Link
+              href="/Depoimentos"
+              className="font-bold w-full border-b-4 p-4"
+            >
               Depoimentos
             </Link>
-            <Link href="/" className="font-bold w-full border-b-4 p-4">
+            <Link href="/Contato" className="font-bold w-full border-b-4 p-4">
               Contato
             </Link>
           </nav>
